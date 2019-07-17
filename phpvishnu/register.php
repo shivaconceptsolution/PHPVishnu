@@ -6,11 +6,11 @@
 </head>
 <body>
 <form action="" method="post">
-   <input type="text" name="txtemail" placeholder="enter email">
+   <input type="email" name="txtemail" placeholder="enter email" required="">
    <hr>
-   <input type="text" name="txtmobile" placeholder="enter mobile">
+   <input type="number" name="txtmobile" placeholder="enter mobile" maxlength="10" required="">
    <hr>
-   <input type="password" name="txtpass" placeholder="enter password">
+   <input type="password" name="txtpass" placeholder="enter password" required="">
    <hr>
    <input type="submit" name="btnsubmit" value="Add">
 
